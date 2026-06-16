@@ -24,7 +24,7 @@ sudo pacman -S lua
 clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/luafetch.git
+git clone https://github.com/unterdev33/luafetch.git
 cd luafetch
 ```
 
@@ -47,9 +47,9 @@ then simply run:
 luafetch
 ```
 
-## Adding a Distribution Logo
+## adding a distribution Logo
 
-Edit `ascii.lua`:
+edit `ascii.lua`:
 
 ```lua
 ascii.arch = {
