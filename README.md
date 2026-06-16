@@ -34,18 +34,7 @@ run directly:
 lua main.lua
 ```
 
-or install system-wide:
-
-```bash
-sudo cp main.lua /usr/local/bin/luafetch
-sudo chmod +x /usr/local/bin/luafetch
-```
-
-then simply run:
-
-```bash
-luafetch
-```
+сurrently, system-wide installation is not supported.
 
 ## adding a distribution Logo
 
