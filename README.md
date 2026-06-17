@@ -3,10 +3,10 @@ a simple asf neofetch implementation on lua
 
 ```text
     /¯\             unterdev@unterdev-nitro
-   /   \             OS: EndeavourOS
- /      \            Kernel: 7.0.12-arch1-1
-/_       )           Shell: /bin/bash
- /_______/           Lua: Lua 5.5
+   /   \            OS: EndeavourOS
+ /      \           Kernel: 7.0.12-arch1-1
+/_       )          Shell: /bin/bash
+ /_______/          Lua: Lua 5.5
 ```
 
 ## requirements
@@ -24,7 +24,7 @@ sudo pacman -S lua
 clone the repository:
 
 ```bash
-git clone https://github.com/unterdev33/luafetch.git
+git clone https://github.com/unterdev33/luafetch
 cd luafetch
 ```
 
@@ -34,7 +34,38 @@ run directly:
 lua main.lua
 ```
 
-сurrently, system-wide installation is not supported.
+## system-wide installation
+
+clone the repository:
+
+```bash
+git clone https://github.com/unterdev33/luafetch
+cd luafetch
+```
+install system-wide:
+
+```bash
+sudo cp main.lua /usr/local/bin/luafetch
+sudo chmod +x /usr/local/bin/luafetch
+```
+
+## usage
+
+run:
+```bash
+luafetch
+```
+
+use a different logo:
+```bash
+luafetch --distro arch
+luafetch --distro endeavouros
+```
+
+## uninstall
+```bash
+sudo rm /usr/local/bin/luafetch
+```
 
 ## adding a distribution Logo
 
