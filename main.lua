@@ -58,7 +58,7 @@ ascii.cachyos = {
     }
 }
 
-ascii.mint = {
+ascii.linuxmint = {
     color = "\27[32m",
     art = {
         "|| /^^\\__^^\\   ",
